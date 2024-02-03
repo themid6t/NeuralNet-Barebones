@@ -1,6 +1,16 @@
 import numpy as np
 from sklearn.preprocessing import OneHotEncoder
 
+
+def train_test_split(x_data, y_data, percent=0.3):
+    """Split the data into training and testing sets using a given ratio"""
+    idx = int(x_data.shape[0] * (1-percent))
+    x_train, x_test = x_data[:idx], x_data[idx:]
+    y_train, y_test = y_data[:idx], y_data[idx:]
+
+    return x_train, y_train, x_test, y_test
+
+
 class NeuralNetwork:
     def __init__(self, layers: list(tuple())) -> None:
         """ Input as: 
@@ -110,6 +120,7 @@ class NeuralNetwork:
         }
         
         m, _ = x_train.shape
+        # num_classes = np.unique(y_train)
         y_train_encoded = OneHotEncoder().fit_transform(y_train).toarray()
         x_val = validation_data[0]
         y_val = validation_data[1]
