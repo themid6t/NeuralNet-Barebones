@@ -1,16 +1,37 @@
-# Neural Network from Scratch
+# Neural Network from scratch
 
-🚀 **Exciting Journey into Neural Networks: Building from Scratch!** 🚀
+This repository contains a basic implementation of a neural network from scratch. The purpose of this project is to provide a simple example of how a neural network can be implemented using basic Python libraries.
 
-Neural Networks play a pivotal role in machine learning, empowering applications such as image recognition and natural language processing. The fundamental learning steps include forward propagation, loss computation, and backpropagation. While popular libraries like TensorFlow and PyTorch abstract much of this complexity, building a neural network from scratch using only NumPy provided a profound understanding of these algorithms.
+## Getting Started
 
-🧠 One of the key challenges and highlights of the project was implementing backpropagation, the backbone of neural network training. This hands-on approach illuminated the inner workings, fostering a deeper comprehension beyond library abstractions.
+To get started with this project, follow these steps:
 
-## Key Features
+1. **Clone the Repository**: 
+   ```bash
+   git clone https://github.com/your-username/NeuralNet-Barebones.git
+   ```
+   
+2. **Install Dependencies**:
+   ```bash
+   pip install -r requirements.txt
+   conda env create -f environment.yml
+   ```
 
-- 🎨 Customizable: Add any number of layers with activation functions of your choice.
-- 📊 Performance Visualization: Check out the insightful performance graphs below!
+3. **Build a Neural network**:
+   - Create a new notebook
+   - Import 
+
+## Structure
+
+- `model.py`: Contains the main script for building and training neural networks with a tensorflow-like API.
+- `nnscratch-detailed.ipynb`: Contains a detailed walkthrough of how to build one yourself.
+<!-- - `utils.py`: Contains utility functions for data preprocessing and evaluation. -->
 
 
+## Contributing
 
-👉 Feel free to explore, fork, and contribute!
+Contributions are welcome! If you have any ideas for improvements or new features, feel free to open an issue or submit a pull request.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
