@@ -1,6 +1,7 @@
 # Neural Network from scratch
 
-This repository contains a basic implementation of a neural network from scratch. The purpose of this project is to provide a simple example of how a neural network can be implemented using basic Python libraries.
+This repository contains a basic implementation of a neural network from scratch. The purpose of this project is to provide a deeper insight about how neural networks work and can be implemented using basic Python libraries. 
+<!-- To build a neural network from scratch on your own, you may follow this article: -->
 
 ## Getting Started
 
@@ -52,7 +53,7 @@ To get started with this project, follow these steps:
 
 ## Contributing
 
-Contributions are welcome! If you have any ideas for improvements or new features, feel free to open an issue or submit a pull request.
+Contributions are welcome! If you have any improvements or want to add new features, feel free to open an issue or submit a pull request.
 
 ## License
 
