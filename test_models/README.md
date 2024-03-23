@@ -1,3 +1,7 @@
+# Test models using the scratch neural network
+
+The scratch neural network is working quiet well, and giving fair accuracy and loss.
+
 ## Performance Graphs
 Handwritten digit recognition model using Mnist handwittend digit dataset
 
